@@ -1,0 +1,243 @@
+Name,Description
+wp cache add,Adds a value to the object cache.
+wp cache decr,Decrements a value in the object cache.
+wp cache delete,Removes a value from the object cache.
+wp cache flush,Flushes the object cache.
+wp cache get,Gets a value from the object cache.
+wp cache incr,Increments a value in the object cache.
+wp cache replace,"Replaces a value in the object cache, if the value already exists."
+wp cache set,"Sets a value to the object cache, regardless of whether it already exists."
+wp cache type,Attempts to determine which object cache is being used.
+wp cap add,Adds capabilities to a given role.
+wp cap list,Lists capabilities for a given role.
+wp cap remove,Removes capabilities from a given role.
+wp cli alias,"Retrieves, sets and updates aliases for WordPress Installations."
+wp cli cache,"Manages the internal WP-CLI cache,."
+wp cli check-update,Checks to see if there is a newer version of WP-CLI available.
+wp cli cmd-dump,"Dumps the list of installed commands, as JSON."
+wp cli completions,Generates tab completion strings.
+wp cli has-command,Detects if a command exists
+wp cli info,Prints various details about the WP-CLI environment.
+wp cli param-dump,"Dumps the list of global parameters, as JSON or in var_export format."
+wp cli update,Updates WP-CLI to the latest release.
+wp cli version,Prints WP-CLI version.
+wp comment approve,Approves a comment.
+wp comment count,"Counts comments, on whole blog or on a given post."
+wp comment create,Creates a new comment.
+wp comment delete,Deletes a comment.
+wp comment exists,Verifies whether a comment exists.
+wp comment generate,Generates some number of new dummy comments.
+wp comment get,Gets the data of a single comment.
+wp comment list,Gets a list of comments.
+wp comment meta,"Adds, updates, deletes, and lists comment custom fields."
+wp comment recount,Recalculates the comment_count value for one or more posts.
+wp comment spam,Marks a comment as spam.
+wp comment status,Gets the status of a comment.
+wp comment trash,Trashes a comment.
+wp comment unapprove,Unapproves a comment.
+wp comment unspam,Unmarks a comment as spam.
+wp comment untrash,Untrashes a comment.
+wp comment update,Updates one or more comments.
+wp config create,Generates a wp-config.php file.
+wp config delete,Deletes a specific constant or variable from the wp-config.php file.
+wp config edit,Launches system editor to edit the wp-config.php file.
+wp config get,Gets the value of a specific constant or variable defined in wp-config.php file.
+wp config has,Checks whether a specific constant or variable exists in the wp-config.php file.
+wp config list,"Lists variables, constants, and file includes defined in wp-config.php file."
+wp config path,Gets the path to wp-config.php file.
+wp config set,Sets the value of a specific constant or variable defined in wp-config.php file.
+wp config shuffle-salts,Refreshes the salts defined in the wp-config.php file.
+wp core check-update,Checks for WordPress updates via Version Check API.
+wp core download,Downloads core WordPress files.
+wp core install,Runs the standard WordPress installation process.
+wp core is-installed,Checks if WordPress is installed.
+wp core multisite-convert,Transforms an existing single-site installation into a multisite installation.
+wp core multisite-install,Installs WordPress multisite from scratch.
+wp core update,Updates WordPress to a newer version.
+wp core update-db,Runs the WordPress database update procedure.
+wp core verify-checksums,Verifies WordPress files against WordPress.org’s checksums.
+wp core version,Displays the WordPress version.
+wp cron event,"Schedules, runs, and deletes WP-Cron events."
+wp cron schedule,Gets WP-Cron schedules.
+wp cron test,Tests the WP Cron spawning system and reports back its status.
+wp db check,Checks the current status of the database.
+wp db clean,Removes all tables with `$table_prefix` from the database.
+wp db cli,Opens a MySQL console using credentials from wp-config.php
+wp db columns,Displays information about a given table.
+wp db create,Creates a new database.
+wp db drop,Deletes the existing database.
+wp db export,Exports the database to a file or to STDOUT.
+wp db import,Imports a database from a file or from STDIN.
+wp db optimize,Optimizes the database.
+wp db prefix,Displays the database table prefix.
+wp db query,Executes a SQL query against the database.
+wp db repair,Repairs the database.
+wp db reset,Removes all tables from the database.
+wp db search,Finds a string in the database.
+wp db size,Displays the database name and size.
+wp db tables,Lists the database tables.
+wp embed cache,"Finds, triggers, and deletes oEmbed caches."
+wp embed fetch,Attempts to convert a URL into embed HTML.
+wp embed handler,Retrieves embed handlers.
+wp embed provider,Retrieves oEmbed providers.
+wp i18n make-json,Extract JavaScript strings from PO files and add them to individual JSON files.
+wp i18n make-mo,Create MO files from PO files.
+wp i18n make-pot,Create a POT file for a WordPress project.
+wp i18n update-po,Update PO files from a POT file.
+wp language core,"Installs, activates, and manages core language packs."
+wp language plugin,"Installs, activates, and manages plugin language packs."
+wp language theme,"Installs, activates, and manages theme language packs."
+wp maintenance-mode activate,Activates maintenance mode.
+wp maintenance-mode deactivate,Deactivates maintenance mode.
+wp maintenance-mode is-active,Detects maintenance mode status.
+wp maintenance-mode status,Displays maintenance mode status.
+wp media fix-orientation,Fix image orientation for one or more attachments.
+wp media image-size,Lists image sizes registered with WordPress.
+wp media import,Creates attachments from local files or URLs.
+wp media regenerate,Regenerates thumbnails for one or more attachments.
+wp menu create,Creates a new menu.
+wp menu delete,Deletes one or more menus.
+wp menu item,"List, add, and delete items associated with a menu."
+wp menu list,Gets a list of menus.
+wp menu location,"Assigns, removes, and lists a menu’s locations."
+wp network meta,"Gets, adds, updates, deletes, and lists network custom fields."
+wp option add,Adds a new option value.
+wp option delete,Deletes an option.
+wp option get,Gets the value for an option.
+wp option list,Lists options and their values.
+wp option patch,Updates a nested value in an option.
+wp option pluck,Gets a nested value from an option.
+wp option update,Updates an option value.
+wp package browse,Browses WP-CLI packages available for installation.
+wp package install,Installs a WP-CLI package.
+wp package list,Lists installed WP-CLI packages.
+wp package path,"Gets the path to an installed WP-CLI package, or the package directory."
+wp package uninstall,Uninstalls a WP-CLI package.
+wp package update,Updates all installed WP-CLI packages to their latest version.
+wp plugin activate,Activates one or more plugins.
+wp plugin auto-updates,Manages plugin auto-updates.
+wp plugin deactivate,Deactivates one or more plugins.
+wp plugin delete,Deletes plugin files without deactivating or uninstalling.
+wp plugin get,Gets details about an installed plugin.
+wp plugin install,Installs one or more plugins.
+wp plugin is-active,Checks if a given plugin is active.
+wp plugin is-installed,Checks if a given plugin is installed.
+wp plugin list,Gets a list of plugins.
+wp plugin path,Gets the path to a plugin or to the plugin directory.
+wp plugin search,Searches the WordPress.org plugin directory.
+wp plugin status,Reveals the status of one or all plugins.
+wp plugin toggle,Toggles a plugin’s activation state.
+wp plugin uninstall,Uninstalls one or more plugins.
+wp plugin update,Updates one or more plugins.
+wp plugin verify-checksums,Verifies plugin files against WordPress.org’s checksums.
+wp post create,Creates a new post.
+wp post delete,Deletes an existing post.
+wp post edit,Launches system editor to edit post content.
+wp post exists,Verifies whether a post exists.
+wp post generate,Generates some posts.
+wp post get,Gets details about a post.
+wp post list,Gets a list of posts.
+wp post meta,"Adds, updates, deletes, and lists post custom fields."
+wp post term,"Adds, updates, removes, and lists post terms."
+wp post update,Updates one or more existing posts.
+wp profile eval,Profile arbitrary code execution.
+wp profile eval-file,Profile execution of an arbitrary file.
+wp profile hook,Profile key metrics for WordPress hooks (actions and filters).
+wp profile stage,"Profile each stage of the WordPress load process (bootstrap, main_query, template)."
+wp rewrite flush,Flushes rewrite rules.
+wp rewrite list,Gets a list of the current rewrite rules.
+wp rewrite structure,Updates the permalink structure.
+wp role create,Creates a new role.
+wp role delete,Deletes an existing role.
+wp role exists,Checks if a role exists.
+wp role list,Lists all roles.
+wp role reset,Resets any default role to default capabilities.
+wp scaffold block,"Generates PHP, JS and CSS code for registering a Gutenberg block for a plugin or theme."
+wp scaffold child-theme,Generates child theme based on an existing theme.
+wp scaffold plugin,Generates starter code for a plugin.
+wp scaffold plugin-tests,Generates files needed for running PHPUnit tests in a plugin.
+wp scaffold post-type,Generates PHP code for registering a custom post type.
+wp scaffold taxonomy,Generates PHP code for registering a custom taxonomy.
+wp scaffold theme-tests,Generates files needed for running PHPUnit tests in a theme.
+wp scaffold underscores,Generates starter code for a theme based on _s.
+wp scaffold _s,Generates starter code for a theme based on _s.
+wp sidebar list,Lists registered sidebars.
+wp site activate,Activates one or more sites.
+wp site archive,Archives one or more sites.
+wp site create,Creates a site in a multisite installation.
+wp site deactivate,Deactivates one or more sites.
+wp site delete,Deletes a site in a multisite installation.
+wp site empty,"Empties a site of its content (posts, comments, terms, and meta)."
+wp site list,Lists all sites in a multisite installation.
+wp site mature,Sets one or more sites as mature.
+wp site meta,"Adds, updates, deletes, and lists site custom fields."
+wp site option,"Adds, updates, deletes, and lists site options in a multisite installation."
+wp site private,Sets one or more sites as private.
+wp site public,Sets one or more sites as public.
+wp site spam,Marks one or more sites as spam.
+wp site switch-language,Activates a given language.
+wp site unarchive,Unarchives one or more sites.
+wp site unmature,Sets one or more sites as immature.
+wp site unspam,Removes one or more sites from spam.
+wp super-admin add,Grants super admin privileges to one or more users.
+wp super-admin list,Lists users with super admin capabilities.
+wp super-admin remove,Removes super admin privileges from one or more users.
+wp taxonomy get,Gets details about a registered taxonomy.
+wp taxonomy list,Lists registered taxonomies.
+wp term create,Creates a new term.
+wp term delete,Deletes an existing term.
+wp term generate,Generates some terms.
+wp term get,Gets details about a term.
+wp term list,Lists terms in a taxonomy.
+wp term meta,"Adds, updates, deletes, and lists term custom fields."
+wp term migrate,Migrate a term of a taxonomy to another taxonomy.
+wp term recount,Recalculates number of posts assigned to each term.
+wp term update,Updates an existing term.
+wp theme activate,Activates a theme.
+wp theme auto-updates,Manages theme auto-updates.
+wp theme delete,Deletes one or more themes.
+wp theme disable,Disables a theme on a WordPress multisite install.
+wp theme enable,Enables a theme on a WordPress multisite install.
+wp theme get,Gets details about a theme.
+wp theme install,Installs one or more themes.
+wp theme is-active,Checks if a given theme is active.
+wp theme is-installed,Checks if a given theme is installed.
+wp theme list,Gets a list of themes.
+wp theme mod,"Sets, gets, and removes theme mods."
+wp theme path,Gets the path to a theme or to the theme directory.
+wp theme search,Searches the WordPress.org theme directory.
+wp theme status,Reveals the status of one or all themes.
+wp theme update,Updates one or more themes.
+wp transient delete,Deletes a transient value.
+wp transient get,Gets a transient value.
+wp transient list,Lists transients and their values.
+wp transient set,Sets a transient value.
+wp transient type,Determines the type of transients implementation.
+wp user add-cap,Adds a capability to a user.
+wp user add-role,Adds a role for a user.
+wp user application-password,"Creates, updates, deletes, lists and retrieves application passwords."
+wp user check-password,Checks if a user’s password is valid or not.
+wp user create,Creates a new user.
+wp user delete,Deletes one or more users from the current site.
+wp user generate,Generates some users.
+wp user get,Gets details about a user.
+wp user import-csv,Imports users from a CSV file.
+wp user list,Lists users.
+wp user list-caps,Lists all capabilities for a user.
+wp user meta,"Adds, updates, deletes, and lists user custom fields."
+wp user remove-cap,Removes a user’s capability.
+wp user remove-role,Removes a user’s role.
+wp user reset-password,Resets the password for one or more users.
+wp user session,Destroys and lists a user’s sessions.
+wp user set-role,Sets the user role.
+wp user spam,Marks one or more users as spam.
+wp user term,"Adds, updates, removes, and lists user terms."
+wp user unspam,Removes one or more users from spam.
+wp user update,Updates an existing user.
+wp widget add,Adds a widget to a sidebar.
+wp widget deactivate,Deactivates one or more widgets from an active sidebar.
+wp widget delete,Deletes one or more widgets from a sidebar.
+wp widget list,Lists widgets associated with a sidebar.
+wp widget move,Moves the position of a widget.
+wp widget reset,Resets sidebar.
+wp widget update,Updates options for an existing widget.
